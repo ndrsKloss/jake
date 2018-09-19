@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Jake" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3_braços" translatesAutoresizingMaskIntoConstraints="NO" id="C8w-aW-7mv">
+                                <rect key="frame" x="33" y="289" width="309" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="309" id="S9w-RT-i69"/>
+                                    <constraint firstAttribute="height" constant="120" id="lVY-aM-Xj9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4_orelhas" translatesAutoresizingMaskIntoConstraints="NO" id="MZu-2H-AFQ">
+                                <rect key="frame" x="70" y="189.5" width="234" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="Xv7-lq-Y8l"/>
+                                    <constraint firstAttribute="width" constant="234" id="src-PJ-7ZR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2_sombra" translatesAutoresizingMaskIntoConstraints="NO" id="tth-0N-RS5">
+                                <rect key="frame" x="89" y="539.5" width="197" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Sxo-Po-ZU8"/>
+                                    <constraint firstAttribute="width" constant="197" id="ite-kc-gui"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5_corpo" translatesAutoresizingMaskIntoConstraints="NO" id="fuv-Sb-TGi">
+                                <rect key="frame" x="84" y="147.5" width="206" height="416"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="gxa-iV-QSC"/>
+                                    <constraint firstAttribute="height" constant="416" id="oPS-4q-cqm"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6_olhopreto" translatesAutoresizingMaskIntoConstraints="NO" id="RoD-w1-N9g">
+                                <rect key="frame" x="112" y="199" width="151" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="6vr-Ci-R8m"/>
+                                    <constraint firstAttribute="height" constant="59" id="O6h-TO-WgU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7_olhobranco" translatesAutoresizingMaskIntoConstraints="NO" id="cwX-1y-t3m">
+                                <rect key="frame" x="121" y="208" width="133" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="91n-VC-GDP"/>
+                                    <constraint firstAttribute="height" constant="41" id="Tar-vV-2XR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8_narizes" translatesAutoresizingMaskIntoConstraints="NO" id="0hV-Ig-66p">
+                                <rect key="frame" x="143.5" y="224.5" width="88" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="8hM-po-UC9"/>
+                                    <constraint firstAttribute="height" constant="72" id="BtG-3q-bPS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="c5P-HX-h2i">
+                                <rect key="frame" x="108" y="258" width="159" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="8Yx-Ow-23C"/>
+                                    <constraint firstAttribute="height" constant="151" id="Wts-3P-RPW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MZu-2H-AFQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-110" id="9BQ-pt-jMt"/>
+                            <constraint firstItem="fuv-Sb-TGi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Bua-qe-hIk"/>
+                            <constraint firstItem="cwX-1y-t3m" firstAttribute="centerY" secondItem="RoD-w1-N9g" secondAttribute="centerY" id="Fa8-6P-yYL"/>
+                            <constraint firstItem="C8w-aW-7mv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HJ4-3H-Crs"/>
+                            <constraint firstItem="0hV-Ig-66p" firstAttribute="centerY" secondItem="RoD-w1-N9g" secondAttribute="centerY" constant="32" id="OgP-DU-qc5"/>
+                            <constraint firstItem="C8w-aW-7mv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="6" id="R8G-aN-438"/>
+                            <constraint firstItem="c5P-HX-h2i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TgY-80-Bza"/>
+                            <constraint firstItem="MZu-2H-AFQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZEt-I1-OUs"/>
+                            <constraint firstItem="tth-0N-RS5" firstAttribute="centerX" secondItem="fuv-Sb-TGi" secondAttribute="centerX" id="b6U-Jp-WYg"/>
+                            <constraint firstItem="fuv-Sb-TGi" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="12" id="cXH-2t-PLq"/>
+                            <constraint firstItem="0hV-Ig-66p" firstAttribute="centerX" secondItem="RoD-w1-N9g" secondAttribute="centerX" id="f4J-ij-s3b"/>
+                            <constraint firstItem="cwX-1y-t3m" firstAttribute="centerX" secondItem="RoD-w1-N9g" secondAttribute="centerX" id="jNa-ln-iaV"/>
+                            <constraint firstItem="tth-0N-RS5" firstAttribute="centerY" secondItem="fuv-Sb-TGi" secondAttribute="centerY" constant="200" id="lk2-um-Btx"/>
+                            <constraint firstItem="c5P-HX-h2i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rIp-qE-Dyo"/>
+                            <constraint firstItem="RoD-w1-N9g" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-115" id="t66-pt-w80"/>
+                            <constraint firstItem="RoD-w1-N9g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="y1U-p1-uJs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="arms" destination="C8w-aW-7mv" id="dOn-3b-1rs"/>
+                        <outlet property="ears" destination="MZu-2H-AFQ" id="jLs-dI-IQa"/>
+                        <outlet property="eyes" destination="RoD-w1-N9g" id="Ibr-cI-zgK"/>
+                        <outlet property="iris" destination="cwX-1y-t3m" id="EGf-zh-g9z"/>
+                        <outlet property="nose" destination="0hV-Ig-66p" id="GqK-tX-yjh"/>
+                        <outlet property="pizza" destination="c5P-HX-h2i" id="suG-el-zvd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="125.4872563718141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2_sombra" width="196" height="32"/>
+        <image name="3_braços" width="308" height="119"/>
+        <image name="4_orelhas" width="233" height="87"/>
+        <image name="5_corpo" width="206" height="416"/>
+        <image name="6_olhopreto" width="150" height="58"/>
+        <image name="7_olhobranco" width="132" height="40"/>
+        <image name="8_narizes" width="88" height="71"/>
+        <image name="pizza" width="208" height="210"/>
+    </resources>
+</document>
