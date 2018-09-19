@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         }
     }
 
-    private func retrieveRelativePoint(by point: CGPoint) {
+    private func retrieveRelativePoint(by point: CGPoint) -> (Float, Float) {
         let x = (point.x - fixedCenterByPizza.x) * 0.1
         let y = (point.y - fixedCenterByPizza.y) * 0.1
         return (x, y)
