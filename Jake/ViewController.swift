@@ -62,43 +62,39 @@ class ViewController: UIViewController {
             break
         }
     }
-    
-    private func animateEyes(by point: CGPoint) {
+
+    private func retrieveRelativePoint(by point: CGPoint) -> (CGFloat, CGFloat) {
         let x = (point.x - fixedCenterByPizza.x) * 0.1
         let y = (point.y - fixedCenterByPizza.y) * 0.1
-        
+        return (x, y)
+    }
+    
+    private func animateEyes(by point: CGPoint) {
+        let (x, y) = retrieveRelativePoint(by: point)
         eyes.transform = CGAffineTransform(translationX: max(min(x * 0.5 , 10.0), -10.0),
                                            y: max(min(y, 10.0), -10.0))
     }
     
     private func animateIris(by point: CGPoint) {
-        let x = (point.x - fixedCenterByPizza.x) * 0.1
-        let y = (point.y - fixedCenterByPizza.y) * 0.1
-        
+        let (x, y) = retrieveRelativePoint(by: point)
         iris.transform = CGAffineTransform(translationX: max(min(x, 16.0), -16.0),
                                            y: max(min(y, 16.0), -16.0))
     }
     
     private func animateNose(by point: CGPoint) {
-        let x = (point.x - fixedCenterByPizza.x) * 0.1
-        let y = (point.y - fixedCenterByPizza.y) * 0.1
-        
+        let (x, y) = retrieveRelativePoint(by: point)
         nose.transform = CGAffineTransform(translationX: max(min(x, 10.0), -10.0),
                                            y: max(min(y, 10.0), -10.0))
     }
     
     private func animateArms(by point: CGPoint) {
-        let x = (point.x - fixedCenterByPizza.x) * 0.1
-        let y = (point.y - fixedCenterByPizza.y) * 0.1
-        
+        let (x, y) = retrieveRelativePoint(by: point)
         arms.transform = CGAffineTransform(translationX: -max(min(x, 8.0), -8.0),
                                            y: -max(min(y, 8.0), -8.0))
     }
     
     private func animateEars(by point: CGPoint) {
-        let x = (point.x - fixedCenterByPizza.x) * 0.1
-        let y = (point.y - fixedCenterByPizza.y) * 0.1
-        
+        let (x, y) = retrieveRelativePoint(by: point)
         ears.transform = CGAffineTransform(translationX: -max(min(x, 6.0), -6.0),
                                            y: -max(min(y, 6.0), -6.0))
     }
